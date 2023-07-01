@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    
+    display: flex;
+    width: 1366px;
+    height: 771px;
+    background: #FFF;
+}
+
+button {
+    width: 160px;
+    height: 46px;
+    border-radius: 10px;
+    background: #6C63FF;
+    margin-top: 457px;
+    margin-left: 290px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+h1 {
+    position: absolute;
+    width: 486px;
+    height: 54px;
+    margin-top: 187px;
+    margin-left: 127px;
+    color: #6C63FF;
+    font-size: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.78px;
+    text-transform: uppercase;
+}
+
+.retangulo {
+    
+    position: absolute;
+    display: flex;
+    width: 494px;
+    height: 79px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 123px;
+    margin-top: 280px;
+
+}
+
+#contador {
+    
+    display: flex;
+    width: 494px;
+    height: 79px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4D4C59;
+    font-size: 65px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+p {
+    position: absolute;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 260px;
+    margin-left: 170px;  
+}
+
+p1 {
+    position: absolute;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 290px;
+    margin-top: 260px;
+
+}
+
+p2 {
+    position: absolute;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 260px;
+    margin-left: 390px;
+}
+
+p3 {
+    position: absolute;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 260px;
+    margin-left: 510px;
+
+}
+
+p4 {
+    position: absolute;
+    color: #9C9AB6;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 196px;
+    margin-top: 405px;
+}
+
+.img {
+    position: absolute;
+    width: 607px;
+    height: 435px;
+    margin-left: 699px;
+    margin-top: 150px;
+
+}
+
+.img1 {
+    position: absolute;
+    width: 1494.234px;
+    height: 133px;
+    margin-left: -65px;
+    margin-top: 0;
+}
+
+.img2 {
+    position: absolute;
+    width: 1366px;
+    height: 229px;
+    margin-top: 540px;
+}
+
+button:hover {
+    border: 5px solid rgb(9, 9, 9);
+    background: #6b63ff7c;
+    font-size: 22px;
+    color: black;
+}
+
+.img:hover { 
+   transform: scale(1.2); 
+    
+}
